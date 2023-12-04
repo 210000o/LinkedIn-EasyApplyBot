@@ -294,7 +294,7 @@ class EasyApplyBot:
     def get_easy_apply_button(self):
         try:
             button = self.browser.find_elements("xpath",
-                '//button[contains(@class, "jobs-apply-button")]'
+                '//button[contains(@class, "jobs-apply-button--top-card")]'
             )
 
             EasyApplyButton = button[0]
