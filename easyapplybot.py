@@ -297,7 +297,7 @@ class EasyApplyBot:
                 '//button[contains(@class, "jobs-apply-button--top-card")]'
             )
 
-            EasyApplyButton = button[0]
+            EasyApplyButton = button[1]
             
         except Exception as e: 
             print("Exception:",e)
